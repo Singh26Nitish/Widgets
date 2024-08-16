@@ -1,11 +1,10 @@
 import React from "react";
 import Header from "./Header";
-import Widget from "../../public/Widget";
+import Widget from "./Widget";
 
 function Dashboard() {
   return (
     <>
-      <Header />
       <Widget />
     </>
   );
